@@ -1,0 +1,60 @@
+/* COLORS
+#daebf2 // CELESTE CLARO
+#fad508 // AMARILLO
+#333 // NEGRO */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Raleway:wght@700&display=swap');
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #daebf2;
+	color: #333;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+h1 h2 h3 h4 h5 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+.text-light {
+	font-weight: 300;
+}
+header {
+	height: 100vh;
+	background-color: #fad508;
+	display: flex;
+	justify-content: space-between;
+}
+.logo img {
+	height: 24px;
+}
+.player {
+	align-self: center;
+}
+header a img {
+	max-height: 150px;
+}
+
+header button {
+	max-height: 30px;
+	margin: 30px;
+	background-color: blueviolet;
+	color: cornsilk;
+	border: 0px;
+	padding: 8px 16px;
+	border-radius: 10%;
+}
+.player {
+	display: flex;
+	flex-direction: column;
+	max-height: 600px;
+}
+.player img {
+	width: 300px;
+}
+audio {
+	width: 246px;
+}
