@@ -1,12 +1,16 @@
 /* COLORS
 #daebf2 // CELESTE CLARO
 #fad508 // AMARILLO
+#3398cc // azul
+##a6ce3a // verde
+#b499cb // violeta
 #333 // NEGRO */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Raleway:wght@700&display=swap');
 * {
 	box-sizing: border-box;
 }
+
 /* FORMAT */
 body {
 	margin: 0px;
@@ -22,7 +26,7 @@ h1 h2 h3 h4 h5 {
 }
 h1 {
 	font-size: 50px;
-	line-height: 10px;
+	line-height: 50px;
 }
 a {
 	text-decoration: none;
@@ -58,6 +62,7 @@ header nav .logo img {
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
+	padding: 20px;
 }
 .player img {
 	height: 300px;
@@ -82,6 +87,7 @@ header nav .logo img {
 	border-radius: 5px;
 	box-shadow: 1px 1px 5px rgba(111, 111, 111, 0.3);
 	transition: 300ms;
+	width: 200px;
 }
 .card:hover {
 	transform: scale(1.1);
@@ -90,12 +96,10 @@ header nav .logo img {
 }
 
 .card a img {
-	height: 150px;
+	width: 100%;
 }
 .card a {
 	color: #333;
-}
-.card a:hover {
 }
 
 /* FOOTER */
@@ -105,4 +109,32 @@ footer {
 	background-color: #333;
 	color: #daebf2;
 	padding: 20px;
+	display: flex;
+	align-content: center;
+	justify-content: space-between;
+}
+footer h3 {
+	display: inline-box;
+}
+.redes {
+	display: flex;
+	align-items: center;
+}
+.redes a {
+	color: #fad508;
+	margin: 30px;
+	font-size: 20px;
+}
+/* COLORS */
+.verde {
+	background-color: #a6ce3a;
+}
+.azul {
+	background-color: #3398cc;
+}
+.violeta {
+	background-color: #b499cb;
+}
+.amarillo {
+	background-color: #fad508;
 }
