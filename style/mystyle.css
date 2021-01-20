@@ -56,17 +56,19 @@ header nav .logo img {
 	align-items: center;
 	justify-content: center;
 	height: calc(100vh - 50px);
+	padding: 100px;
 }
 .player {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	padding: 20px;
 }
 .player img {
-	height: 300px;
-	width: 300px;
+	height: 70%;
+	width: 70%;
+	max-height: 300px;
+	max-width: 300px;
 }
 
 /* SEGUNDA SECCION */
