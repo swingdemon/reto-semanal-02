@@ -47,7 +47,8 @@ header nav {
 }
 
 header nav .logo img {
-	height: 50px;
+	max-height: 30px;
+	height: 100%;
 }
 /* PRIMERA SECCION */
 .single-podcast {
